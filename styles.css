@@ -14,6 +14,22 @@
 
 }
 
+.common-mid-header{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.common-mid-descrip{
+    width: 594px;
+    margin: auto;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    
+}
+
 /* Header styles */
 
 .header-container {
@@ -50,4 +66,9 @@
 .banner-img {
     width: 635px;
     height: 800px;
+}
+
+/* Main Body Styles */
+.main-body-title{
+    margin-top: 180px;
 }
