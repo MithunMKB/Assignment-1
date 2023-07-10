@@ -98,11 +98,13 @@
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 32px;
     /* position: absolute; */
+    /* margin-top: -500px; */
 
 }
 
 .featured-flowers img {
     width: 65%;
+    margin-top: 100px;
 
 }
 
