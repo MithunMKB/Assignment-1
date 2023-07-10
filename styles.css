@@ -10,7 +10,7 @@
     color: #ffff;
     padding: 20px 43px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
 
 }
 
@@ -92,9 +92,51 @@
 
 
 /* inista-imgs-container */
-.inista-imgs-container{
+.inista-imgs-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     margin: 48px 240px 128px 240px;
+}
+
+/* <!-- Latest Deal Section --> */
+
+.deal-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 130px;
+    /* background-image: url(Flower\ Asset/); */
+    background-repeat: no-repeat;
+        background-color: beige;
+    height: 449px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.input-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.email-input {
+    height: 14px;
+    width: 700px;
+    border: none;
+    border-radius: 10px;
+    padding: 22px;
+    margin-right: 16px;
+}
+
+
+/* Footer Styles */
+
+footer{
+    background-color: black;
+    /* height: 450px; */
+    text-align: center;
+}
+.footer-container{
+    padding-top: 225px;
+    padding-bottom: 225px;
 }
