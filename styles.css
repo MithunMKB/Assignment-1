@@ -76,6 +76,44 @@
     margin-top: 180px;
 }
 
+
+/* featured-flowers-section */
+
+.featured-flowers-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 48px 240px 128px 240px;
+    /* background-color: yellow; */
+    /* background-position: bottom; */
+    /* position: relative; */
+}
+
+
+
+.featured-flowers {
+    height: 538px;
+    width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-bottom: 32px;
+    /* position: absolute; */
+
+}
+
+.featured-flowers img {
+    width: 65%;
+
+}
+
+.featured-flowers-section p {
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
 .hot-deal-container {
     display: flex;
     align-items: center;
@@ -108,7 +146,7 @@
     margin-bottom: 130px;
     /* background-image: url(Flower\ Asset/); */
     background-repeat: no-repeat;
-        background-color: beige;
+    background-color: beige;
     height: 449px;
     margin-left: 240px;
     margin-right: 240px;
@@ -131,12 +169,13 @@
 
 /* Footer Styles */
 
-footer{
+footer {
     background-color: black;
     /* height: 450px; */
     text-align: center;
 }
-.footer-container{
+
+.footer-container {
     padding-top: 225px;
     padding-bottom: 225px;
 }
