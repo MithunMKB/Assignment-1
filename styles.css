@@ -1,4 +1,53 @@
-*{margin: 0;
-padding: 0;
-/* background-color: blueviolet; */
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.common-btn {
+    background: #E55473;
+    color: #ffff;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+/* Header styles */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #E554731A;
+    padding-right: 240px;
+    padding-left: 240px;
+    padding-top: 50px;
+}
+
+.header-half {
+    width: 50%;
+    padding: 10px, 10px;
+}
+
+.header-title {
+    height: 288x;
+    width: 708px;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.header-descrip {
+    padding: 10px 0;
+    width: 634px;
+    height: 90px;
+    font-size: 18px;
+    color: #27272799;
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
 }
