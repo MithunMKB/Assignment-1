@@ -29,33 +29,38 @@
     font-size: 18px;
 
 }
+
 /* <!-- Nav Section Styles --> */
 
-nav{
+nav {
     height: 80px;
     /* background: yellow; */
     background: #E55473;
     color: #ffff;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-around;
     margin: 0px 300px 0px 300px;
     padding: 30px 0 0 0;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-left: 10px;
     font-size: 25px;
     font-weight: 800;
     /* padding: 20px 43px; */
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #ffff;
     padding: 20px 43px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     background: #850521;
     color: #ffff;
     padding: 20px 43px;
@@ -181,6 +186,7 @@ nav ul li a:hover{
     justify-content: center;
     margin-bottom: 130px;
     background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
     /* background-color: beige; */
     height: 449px;
     margin-left: 240px;
@@ -201,6 +207,27 @@ nav ul li a:hover{
     margin-right: 16px;
 }
 
+/* <!-- Feedback Section --> */
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 50px;
+    padding-bottom: 50pX;
+    margin-left: 240pX;
+    margin-right: 240pX;
+}
+
+.input-field {
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10PX;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
 
 /* Footer Styles */
 
